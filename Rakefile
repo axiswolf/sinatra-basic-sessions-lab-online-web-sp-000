@@ -11,5 +11,6 @@ def reload!
 end
 
 task :console do
+  reload!
   Pry.start
 end
